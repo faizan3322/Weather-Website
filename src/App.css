@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
+/* SearchBar CSS starts*/
+.input-field{
+  width: 20rem;
+  border-radius: 20px;
+  padding-left: 20px;
+  margin-top: 15px;
+  border: solid 4px rgb(100, 130, 173);
+  background-color: rgb(100, 130, 173);
+  color: #fff;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.input-field:focus{
+  box-shadow: 5px,5px,10px rgba(100, 130, 173, 0.5);
+  border: solid 4px rgb(100, 130, 173);
+  outline: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.input-field::placeholder{
+  padding-left: 10px;
+  color:rgb(100, 130, 173) ;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.search-btn{
+  margin-top: 15px !important; 
+  border: solid 2px rgb(100, 130, 173);
+  padding: 5px 20px;
+  border-radius: 20px;
+  background-color: #6482AD;
+  margin-left: 5px;
+  color: #fff;
+  transition: 0.3s ease-in-out;
 }
-
-.App-link {
-  color: #61dafb;
+.search-btn:hover{
+  background-color: #7FA1C3;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* SearchBar CSS Ends */
+.imgs{
+  width: 50px;
+  color: #000;
+}
+.imag{
+  margin-top: 50px;
+  
+}
+.namm{
+  margin-top: -10px;
+  color: #fff;
+  text-align: center !important;
+  
+}
+.imgs-text{
+  font-size: 12px;
+  margin-top: 8px;
+  margin-bottom: 5px;
+}
+.imag:nth-child(1){
+  margin-right: 90px;
+}
+.temp{
+  font-size: 60px;
+  color: #fff;
+  stroke: aqua;
+  -webkit-text-stroke: 1px #000;
+}
+.img-icon{
+  width: 100px;
+  margin: auto;
+  padding: auto;
+  align-content: center;
+  margin-top: 10px;
+ 
+}
+body{
+  
+  background-position-y: center;
 }
