@@ -39,7 +39,7 @@ export default function SearchBar() {
       setLoading(true);
       try {
         const API = await fetch(
-          `https://api.openweathermap.org/data/2.5/weather?q=karachi&appid=a427dc6917a78752463120b6d2dd6b65&units=metric`
+          `https://api.openweathermap.org/data/2.5/weather?q=dallas&appid=a427dc6917a78752463120b6d2dd6b65&units=metric`
         );
         const response = await API.json();
         if (response.cod !== 200) {
